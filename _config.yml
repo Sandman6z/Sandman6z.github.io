@@ -31,10 +31,14 @@ kramdown:
 permalink: /:title/:year/:month/:day/
 
 
-# 主题设置（可选）
-theme: jekyll-theme-minimal
+# # 主题设置（可选）
+# theme: jekyll-theme-minimal
+
+remote_theme: pages-themes/minimal@v0.2.0
 
 # 插件设置（可选）
 plugins:
+
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
   - jekyll-feed
   - jekyll-seo-tag
